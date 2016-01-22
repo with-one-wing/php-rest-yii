@@ -1,8 +1,5 @@
 <?php
 
-ini_set('display_errors',1);
-error_reporting(E_ALL);
-
 class ApiController extends CController {
 
     /* It is detailed error codes, as http status codes can not cover error type detailed. Need for api client
