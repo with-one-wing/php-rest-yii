@@ -1,0 +1,9 @@
+{
+
+    "require": {
+
+        "square1-io/yii-framework": "1.1.14"
+
+    }
+
+}
