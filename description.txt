@@ -1,0 +1,26 @@
+In the same folder you will find the design of an iOS app intended to conduct a poll of
+musical instruments. 
+Design and implement the REST API this app will use, including 
+authentication. 
+You are free to use any framework and tools you like.
+You are free to use any storage engine you prefer. Implement at least basic caching.
+Keep in mind, that no front­end work is needed.
+Provide a testing file for the API (Postman/Paw/curl command/unit tests).
+
+What's to see: 
+Generally files in:
+-web/protected/controllers/
+-web/protected/models
+-web/protected/config
+Testing Postman file in web/protected/data folder
+
+Notes:
+-Some things, e.g validation key cache generation e.t.c ,made as not really complex because it's tech task.
+-Controller in fact must be as parent controller for other rest entities. But in this test-project it's only one whole.
+-Authorization made via sending just user name on headers - like on design.
+ I didn't provide full authorization system with tokens as they really don't need
+-APC cache used. 
+Framework can be obtained via composer
+Developed according to rest standards:
+-http statuses
+-http methods
