@@ -1,2 +1,2 @@
-# rest-yii
-Test task to implement Rest Api on YII
+# rest-yii PHP Test Task
+Test task to implement Rest Api on PHP YII Framework
